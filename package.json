@@ -1,0 +1,29 @@
+{
+  "name": "kvs-abstract",
+  "version": "0.1.0",
+  "description": "An abstract helper for all types of KVS backends",
+  "main": "abstract.js",
+  "scripts": {
+    "test": "./node_modules/.bin/lab test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipobscure/kvs-abstract.git"
+  },
+  "keywords": [
+    "kvs",
+    "abstract"
+  ],
+  "author": "Philipp Dunkel <pip@pipobscure.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pipobscure/kvs-abstract/issues"
+  },
+  "dependencies": {
+    "once": "~1.3.0"
+  },
+  "devDependencies": {
+    "joi": "~2.0.3",
+    "lab": "1.2.2"
+  }
+}
