@@ -1,6 +1,6 @@
 {
   "name": "kvs-abstract",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An abstract helper for all types of KVS backends",
   "main": "abstract.js",
   "scripts": {
